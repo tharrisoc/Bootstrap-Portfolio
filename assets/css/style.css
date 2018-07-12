@@ -1,0 +1,83 @@
+body {
+  background-color: #EDEDED;
+}
+
+nav {
+  width: 960px;
+  height: 5rem;
+  margin-top: .5rem;
+}
+
+.navbar-brand {
+  background-color: #41A9A4;
+  border-color: #cccccc;
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+  height: 5rem;
+  width: 15rem;
+}
+
+#contentarea {
+  width: 960px;
+}
+
+#aboutcard {
+  margin-top : 7rem;
+  width: 622px;
+}
+
+#aboutmetext, #connectmetext {
+  color: #45AAA5;
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+  font-weight: bold;
+}
+
+#bio-text {
+  line-height: 200%;
+  font-size: 90%;
+}
+
+#connectmetext {
+  font-size: 1.15rem;
+}
+
+#socialcard {
+  margin-top: -26.2rem;
+  width: 270px;
+  height: 10rem;
+  display: inline-block;
+}
+
+#social-buttons {
+  margin-left:  auto;
+  margin-right: auto;
+  width: 270px;
+}
+
+.social-button {
+  height: 48px;
+  width:  48px;
+}
+
+footer {
+  background-color: #666666;
+  width: 100%;
+}
+
+.footer-copyright {
+  font-size: x-small;
+  width: 100%;
+  padding-top: 4.0rem;
+}
+
+hr.style8 {
+  border-top: 1px solid #8C8B8B;
+  border-bottom: 1px solid #fff;
+}
+
+hr.style8:after {
+  content: '';
+  display: block;
+  margin-top: 2px;
+  border-bottom: 1px solid #fff;
+}
+
