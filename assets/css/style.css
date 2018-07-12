@@ -20,15 +20,42 @@ nav {
   width: 960px;
 }
 
-#aboutcard, #contactcard {
+#aboutcard, #contactcard, #portfolio-rows {
   margin-top : 7rem;
   width: 622px;
 }
 
-#aboutmetext, #connectmetext, #contacttitle {
+#aboutmetext, #connectmetext, #contacttitle, #portfoliotitle {
   color: #45AAA5;
   font-family: 'Georgia', Times, 'Times New Roman', serif;
   font-weight: bold;
+}
+
+/*
+#portfolio-rows {
+  border: 1px solid darkgray;
+}
+*/
+
+#portfoliotitle {
+  margin-top: 7rem;
+}
+
+.rgtcol {
+  padding-left: 4rem;
+}
+
+.captiontext {
+  color: #FFFFFF;
+  background-color: #45AAA5;
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+/*  font-weight: bold; */
+  font-size: 1.5rem;
+  text-align: center;
+  z-index: 1;
+  position: relative;
+  top: -15%;
+  left: 60%;
 }
 
 #bio-text {
@@ -40,7 +67,7 @@ nav {
   font-size: 1.15rem;
 }
 
-#socialcard, #socialcard2 {
+#socialcard, #socialcard2, #socialcard3 {
   width: 270px;
   height: 10rem;
   display: inline-block;
@@ -52,6 +79,10 @@ nav {
 
 #socialcard2 {
   margin-top: -36.5rem;
+}
+
+#socialcard3 {
+  margin-top: -55.1rem;
 }
 
 #social-buttons {
@@ -97,3 +128,7 @@ hr.style8:after {
   background-color: #41A9A4;
 }
 
+.portfolio-image {
+  width:  300px;
+  height: 230px;
+}

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Bootstrap Portfolio Contact Page</title>
+    <title>Bootstrap Portfolio Page</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -27,35 +27,63 @@
       </nav>
 
       <div class="ml-5 mt-5" id="contentarea">
-        <div class="card" id="contactcard">
-          <div class="card-body">
-            <h4 id="contacttitle">Contact</h4>
-            <hr class="style8" />
-            <form>
-              <div class="form-group">
-                <label for="name">Name</label>
-                <input type="text" class="form-control" id="name"
-                       placeholder="Please enter full name" />
-              </div>
-           
-              <div class="form-group">
-                <label for="email">Email</label>
-                <input type="email" class="form-control" id="email"
-                      placeholder="Please enter a valid email address" />
-              </div>
+        <div id="portfolio-rows">
+          <h4 id="portfoliotitle">Portfolio</h4>
+          <hr class="style8" />
+        
+          <div class="row">
+            <div class="col-sm-3 mr-5">
+              <span class="portfolio-button">
+                <a href="" target="_blank">
+                  <img src="./assets/images/technics-q-c-640-480-1.jpg" alt=""
+                       class="portfolio-image" /></a>
+              </span>
+              <span class="captiontext">Hangman</span>
+            </div>
 
-              <div class="form-group">
-                <label for="message">Message</label>
-                <textarea class="form-control" id="message"
-                          placeholder="Please enter your comment, question or concern" ></textarea>
-              </div>
+            <div class="col-sm-3 ml-5 rgtcol">
+              <span class="portfolio-button">
+                <a href="" target="_blank">
+                  <img src="./assets/images/technics-q-c-640-480-3.jpg" alt=""
+                       class="portfolio-image" /></a>
+              </span>
+              <span class="captiontext">RPG&nbsp;Game</span>
+            </div>
+          </div>  <!-- row -->
 
-              <button type="submit" class="btn" id="postcomment">Submit</button>
-            </form>
-          </div>  <!-- card-body -->
-        </div>  <!-- card -->
+          <div class="row">
+            <div class="col-sm-3 mr-5 mt-3" >
+              <span class="portfolio-button">
+                <a href="" target="_blank">
+                  <img src="./assets/images/technics-q-c-640-480-4.jpg" alt=""
+                       class="portfolio-image" /></a>
+              </span>
+              <span class="captiontext">Trivia&nbsp;Game</span>
+            </div>
+    
+            <div class="col-sm-3 ml-5 mt-3 rgtcol">
+              <span class="portfolio-button">
+                <a href="" target="_blank">
+                  <img src="./assets/images/technics-q-c-640-480-8.jpg" alt=""
+                       class="portfolio-image" /></a>
+              </span>
+              <span class="captiontext">Rutgers&nbsp;Info&nbsp;Widget</span>
+            </div>
+          </div>  <!-- row -->
 
-        <div class="card float-right" id="socialcard2">
+          <div class="row">
+                <div class="col-sm-3 mt-3">
+                  <span class="portfolio-button">
+                    <a href="" target="_blank">
+                      <img src="./assets/images/technics-q-c-640-480-9.jpg" alt=""
+                           class="portfolio-image" /></a>
+                  </span>
+                  <span class="captiontext">Rock&nbsp;Paper&nbsp;Scissors</span>
+                </div>
+              </div>  <!-- row -->
+        </div>  <!-- portfolio-rows -->
+  
+        <div class="card float-right" id="socialcard3">
           <div class="card-body">
             <h3 class="card-title text-center" id="connectmetext">Connect with Me</h3>
             <hr />
@@ -85,10 +113,6 @@
           </div>  <!-- card-body -->
         </div>  <!-- card -->
 
-        <footer class="page-footer">
-            <p class="footer-copyright text-center text-white">© Copyright 2018 Thomas Harris</p>
-        </footer>
-  
       </div>  <!-- ml-5 mt-5 -->
 
     </div>  <!-- outer container -->
