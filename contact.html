@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Bootstrap Portfolio About Me</title>
+    <title>Bootstrap Portfolio Contact Page</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -27,42 +27,35 @@
       </nav>
 
       <div class="ml-5 mt-5" id="contentarea">
-        <div class="card" id="aboutcard">
+        <div class="card" id="contactcard">
           <div class="card-body">
-            <h3 class="card-title" id="aboutmetext">About Me</h3>
-            <hr class="style8" />
+          <h4 id="contacttitle">Contact</h4>
+          <hr class="style8" />
+            <form>
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name"
+                       placeholder="Please enter full name" />
+              </div>
 
-            <p class="card-text ml-auto">
-                <img src="./assets/images/THarris2012Centered.jpg"
-                     height="169" width="136" id="profile-photo"
-                     class="image-fluid float-left mr-2"
-                     alt="Photo of Thomas Harris" />
-                <span id="bio-text">
-                I am looking for work as a Full Stack Web Developer.
-                My background is as a software developer but I have 
-                recently started focusing on web development.
-                
-                I have previous experience developing software in several
-                industries including transportation, avionics, tolling,
-                database engines and geographic information systems.
-                
-                I have used C/C++ and Java as implementation languages,
-                as well as Perl, Python and PHP as scripting languages.
-                
-                I am currently taking a full stack development
-                course and am thus improving my skills in HTML CSS and
-                JavaScript, among other technologies.
-                
-                I have previous experience working for start-up companies,
-                as well as experience as a telecommuter. I have Windows, 
-                Linux and OS X systems at home, as well as print/copy/scan/fax
-                equipment, I am thus prepared to work remotely on many types
-                of jobs. </span>
-            </p>
-          </div>   <!-- card-body -->
-        </div>  <!-- card-->
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email"
+                       placeholder="Please enter a valid email address" />
+              </div>
 
-        <div class="card float-right" id="socialcard">
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message"
+                          placeholder="Please enter your comment, question or concern" ></textarea>
+              </div>
+
+              <button type="submit" class="btn" id="postcomment">Submit</button>
+            </form>
+          </div>  <!-- card-body -->
+        </div>  <!-- card -->
+
+        <div class="card float-right" id="socialcard2">
           <div class="card-body">
             <h3 class="card-title text-center" id="connectmetext">Connect with Me</h3>
             <hr />

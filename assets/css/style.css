@@ -20,12 +20,12 @@ nav {
   width: 960px;
 }
 
-#aboutcard {
+#aboutcard, #contactcard {
   margin-top : 7rem;
   width: 622px;
 }
 
-#aboutmetext, #connectmetext {
+#aboutmetext, #connectmetext, #contacttitle {
   color: #45AAA5;
   font-family: 'Georgia', Times, 'Times New Roman', serif;
   font-weight: bold;
@@ -40,11 +40,18 @@ nav {
   font-size: 1.15rem;
 }
 
-#socialcard {
-  margin-top: -26.2rem;
+#socialcard, #socialcard2 {
   width: 270px;
   height: 10rem;
   display: inline-block;
+}
+
+#socialcard {
+  margin-top: -26.2rem;
+}
+
+#socialcard2 {
+  margin-top: -36.5rem;
 }
 
 #social-buttons {
@@ -79,5 +86,14 @@ hr.style8:after {
   display: block;
   margin-top: 2px;
   border-bottom: 1px solid #fff;
+}
+
+#message {
+  height: 14em;
+}
+
+#postcomment {
+  color: white;
+  background-color: #41A9A4;
 }
 
