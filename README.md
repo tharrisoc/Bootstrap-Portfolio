@@ -4,4 +4,7 @@ My basic portfolio pages, implemented using bootstrap 4.0
 
 This is the first half of the homework assignment.  
 
-The second half will be located in the *Responsive-Portfolio* repository.
+This code has been deployed to the following URL:  
+`http://tomharris-com.stackstaging.com/bootstrap-portfolio/`
+
+The second half of the homework will be located in the *Responsive-Portfolio* repository.
